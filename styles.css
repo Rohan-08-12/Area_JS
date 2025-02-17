@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* Main Container */
+main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1#top {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+    font-size: 18px;
+}
+
+/* Navigation Menu */
+ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #2980b9;
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Input Styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #34495e;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+input[readonly] {
+    background-color: #e8e8e8;
+    color: #7f8c8d;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Go to Top Link */
+.go {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.go a {
+    color: #3498db;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.go a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    input[type="text"] {
+        padding: 12px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
